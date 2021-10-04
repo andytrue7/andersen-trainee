@@ -1,6 +1,5 @@
 function makeObjectDeepCopy(val) {
-
-  if(val === null || typeof val !== 'object') {
+  if (val === null || typeof val !== 'object') {
     return val;
   }
 
