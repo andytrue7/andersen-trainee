@@ -9,6 +9,8 @@ export class Car {
   #isStarted = false;
   #mileage = 0;
 
+  constructor() {}
+
   get brand() {
     return this.#brand;
   }
